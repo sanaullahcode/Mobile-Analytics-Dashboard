@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated at runtime (regenerated automatically by the app)
+mobile_analytics.db
+mobile_price_model.pkl
+price_model.pkl
+*.db
+*.pkl
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
