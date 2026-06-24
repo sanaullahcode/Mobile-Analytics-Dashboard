@@ -52,14 +52,6 @@ pip install -r requirements.txt
 streamlit run mobiles_app.py
 ```
 
-The SQLite database (`mobile_analytics.db`) is created automatically on first run with three default accounts:
-
-| Role    | Username | Password   |
-|---------|----------|------------|
-| Admin   | admin    | admin123   |
-| Analyst | analyst  | analyst123 |
-| User    | user     | user123    |
-
 ⚠️ **Change these default passwords before deploying publicly** — they're meant for local testing only.
 
 ### 5. Train the model
